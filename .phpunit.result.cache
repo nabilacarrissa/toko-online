@@ -1,1 +1,1 @@
-{"version":2,"defects":{"CatalogTest::testSearchProductFound":7},"times":{"CatalogTest::testSearchProductFound":0.009,"CatalogTest::testSearchProductEmptyKeyword":0.005,"CheckoutTest::testCheckoutReducesStock":0.022}}
+{"version":2,"defects":{"CatalogTest::testSearchProductFound":7},"times":{"CatalogTest::testSearchProductFound":0.026,"CatalogTest::testSearchProductEmptyKeyword":0.004,"CheckoutTest::testCheckoutReducesStock":0.051}}
