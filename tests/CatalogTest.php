@@ -15,6 +15,11 @@ class CatalogTest extends TestCase
                 "nama" => "Kemeja Flanel",
                 "harga" => 150000,
                 "stok" => 10
+            ],
+            "PRD-2" => [
+                "nama" => "Celana Jeans",
+                "harga" => 200000,
+                "stok" => 5
             ]
         ];
 
@@ -25,7 +30,7 @@ class CatalogTest extends TestCase
     public function testSearchProductFound()
     {
         $result = $this->katalog->searchProduct("Kemeja");
-        $this->assertCount(99, $result);
+        $this->assertCount(1, $result);
     }
 
     public function testSearchProductEmptyKeyword()
