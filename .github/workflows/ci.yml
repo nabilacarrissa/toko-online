@@ -18,7 +18,7 @@ jobs:
         run: composer install --prefer-dist --no-progress
 
       - name: Run PHPUnit
-        run: vendor/bin/phpunit tests/
+        run: php vendor/bin/phpunit tests/
 
       - name: Setup Node.js for Cypress
         uses: actions/setup-node@v3
