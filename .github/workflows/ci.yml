@@ -17,8 +17,8 @@ jobs:
       - name: Install PHP Dependencies
         run: composer install --prefer-dist --no-progress
 
-      - name: Run PHPUnit & Quality Metrics
-        run: vendor/bin/phpunit tests/ --coverage-text
+      - name: Run PHPUnit
+        run: vendor/bin/phpunit tests/
 
       - name: Setup Node.js for Cypress
         uses: actions/setup-node@v3
